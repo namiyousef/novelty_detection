@@ -72,22 +72,8 @@
 	<div class="container">
     	<h2>Executive Summary</h2>
     	<center style = "margin-right: 25%; margin-left:25%"><h6 style = "text-align: justify;
-  text-justify: inter-word; line-height: 1.45">The Boston Housing Market dataset is ubiquitous but imperfect: with
-problems like small size, inconsistent definitions, incorrect coordinates
-and many many. However, it is still a very rich dataset containing
-informative geographical information, powerful socioeconomic
-indicators, and continuous levels of Nitrogen Oxides (NOx). This project explores the effect of developing low income
-neighbourhoods on NOx. This involves three logical steps: 1) Verifying
-that the dataset is rich enough to form clusters of economic class, 2)
-train a regressor for predicting NOx values, and finally 3) creating
-synthetic data simulating ‘improved’ low income neighbourhoods by
-bootstrapping values from higher income classes, while keeping
-geographical constraints fixed. To address the first issue, K-means is used to cluster the towns into 3 income classes (low, medium and high). The second point is achieved through a Support Vector Regression model achieving an accuracy of 88%.
-            The last issue is addressed by means of replacing non-geographically constrained attributes of the low income cluster with that of a bootstrapped sample from the high inocome cluster. The evidence suggests that improving low income neighbourhoods does
-indeed decrease overall NOx levels, giving non-humanitarian reasons for
-supporting social uplifting policy. This project also corrects erroneous
-longitude and latitude values of the Boston dataset using Google’s
-geocoder API. The code and documentation for this project can be found <a href = "https://github.com/namiyousef/ai_hack_2021">here</a>.</h6></center>
+  text-justify: inter-word; line-height: 1.45">Determining whether a document contains novel research or not simplifies the otherwise laborious literature review process. This is a largely unsolved problem, both due to the difficulty in defining what constitutes novel research and in extracting document level semantic relationships using statistical methods. In recent years, Deep Learning has boosted Natural Language Processing (NLP), particularly deep representations of text. Despite this, there has been little research into using NLP to detect the novelty of long documents (e.g. scholarly articles).
+This paper defines novelty as dissimilarity provided that the document is relevant. Two novelty detection models (pseudo-supervised and unsupervised) are introduced to address this issue. The former, based on a pairwise convolutional neural network, is computationally and memory intensive. It was unable to train. The unsupervised model is based on outlier detection in an embedding space. The model was found to perform well for pre-processing tasks (i.e. filtering out irrelevant documents) but not for novelty detection.<a href = "https://github.com/namiyousef/ai_hack_2021">here</a>.</h6></center>
 
         <center style = "margin-right: 25%; margin-left:25%"><h6 style = "text-align: justify;
   text-justify: inter-word;">The aims and objectives of the project were defined as follows:</h6></center>
@@ -102,7 +88,7 @@ geocoder API. The code and documentation for this project can be found <a href =
                     	<i class="fa-paw"></i>
                     </div>
                 	<div class="service-list-col2">
-                        <h3>Explore novel avenues in famous Boston dataset </h3>
+                        <h3>Perform a literature review on state-of-the-art (SOTA) text representation techniques and neural network structures used in NLP</h3>
                         <p>Typical projects with the Boston dataset focus on regression analyses on house prices, while others focus on a more geo-spatial analysis of the data (e.g. clustering). While both of these are quite interesting,
                         our goal was to challenge ourselves by trying to answer a research question that could directly to policy recommendations.</p>
                     </div>
