@@ -2,10 +2,10 @@
 
 NLP Final Year Project for finding novelty in scientific research papers.
 
-Project website link: https://namiyousef.github.io/novelty_detection/
+Project website link: https://namiyousef.github.io/novelty_detection/ (Work in progress!)
 
 This is a personal GitHub repository that includes a summarised results and snippets of code. For the entire work flow please visit https://github.com/lsalles23/ContentMining.
-The repository is private, so please contact me at namiyousef@hotmail.com for access.
+The repository is private, so please contact me at yn2217@ic.ac.uk for access.
 
 ![TurbomachineryWordCloud](https://github.com/namiyousef/novelty_detection/blob/main/docs/img/brochure_pip_HD.png)
 # Executive Summary
